@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 18
       - name: Install
-        run: npm ci
+        run: npm install honkit --save-dev
       - name: Build
         run: npx honkit build
       - name: Deploy
