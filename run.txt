@@ -1,0 +1,23 @@
+# Run
+# https://honkit.netlify.app/
+
+
+# Create a book
+
+$ npx honkit init
+
+# Preview and serve your book using:
+
+$ npx honkit serve
+
+# Or build the static website using:
+
+$ npx honkit build
+
+# Push to Github
+
+$ git add . && git commit -m 'add honkit' && git push -u origin master
+
+# Publish to Git Pages
+
+$ git subtree push --prefix=_book origin gh-pages
