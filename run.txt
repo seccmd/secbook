@@ -16,7 +16,7 @@ $ npx honkit build
 
 # Push to Github
 
-$ git add . && git commit -m 'add honkit' && git push -u origin master
+$ git add --all && git commit -m 'add honkit' && git push
 
 # Publish to Git Pages
 
