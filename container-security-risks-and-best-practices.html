@@ -1,0 +1,606 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>企业级容器安全风险与最佳实践 · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.0.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="red-blue-attack-and-defense-practice.html" />
+    
+    
+    <link rel="prev" href="major-security-risk-assessment-of-cloud-computing-services.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">【网络安全纵深防御】</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="defense-in-depth-security-solution.html">
+            
+                <a href="defense-in-depth-security-solution.html">
+            
+                    
+                    全链路纵深防御安全方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="security-incident-response.html">
+            
+                <a href="security-incident-response.html">
+            
+                    
+                    网络安全事件应急响应
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">【安全合规及风险管理】</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="cybersecurity-laws.html">
+            
+                <a href="cybersecurity-laws.html">
+            
+                    
+                    网络安全法律法规
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="information-security-management-system.html">
+            
+                <a href="information-security-management-system.html">
+            
+                    
+                    信息安全管理体系建设
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="information-security-awareness-training.html">
+            
+                <a href="information-security-awareness-training.html">
+            
+                    
+                    企业信息安全意识培训
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">【数据安全与隐私保护】</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="data-security-protection-system.html">
+            
+                <a href="data-security-protection-system.html">
+            
+                    
+                    数据安全保护体系
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="personal-information-protection.html">
+            
+                <a href="personal-information-protection.html">
+            
+                    
+                    个人信息保护安全防范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">【安全开发生命周期】</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="devsecops-security-solution.html">
+            
+                <a href="devsecops-security-solution.html">
+            
+                    
+                    软件开发安全生命周期DevSecOps安全方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="software-code-vulnerability-automated-repair-technology.html">
+            
+                <a href="software-code-vulnerability-automated-repair-technology.html">
+            
+                    
+                    软件代码漏洞自动化修复技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">【终端与身份安全】</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" >
+            
+                <span>
+            
+                    
+                    身份优先安全风险地图
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="terminal-and-remote-office-security.html">
+            
+                <a href="terminal-and-remote-office-security.html">
+            
+                    
+                    终端安全与远程办公
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="zero-trust-security-architecture.html">
+            
+                <a href="zero-trust-security-architecture.html">
+            
+                    
+                    零信任安全架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">【云数据中心安全】</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="cloud-security-framework-and-virtualization-technology.html">
+            
+                <a href="cloud-security-framework-and-virtualization-technology.html">
+            
+                    
+                    云安全框架及虚拟化技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="major-security-risk-assessment-of-cloud-computing-services.html">
+            
+                <a href="major-security-risk-assessment-of-cloud-computing-services.html">
+            
+                    
+                    云计算服务重大安全风险评估
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="7.3" data-path="container-security-risks-and-best-practices.html">
+            
+                <a href="container-security-risks-and-best-practices.html">
+            
+                    
+                    企业级容器安全风险与最佳实践
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">【安全攻防实战演练】</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="red-blue-attack-and-defense-practice.html">
+            
+                <a href="red-blue-attack-and-defense-practice.html">
+            
+                    
+                    红蓝对抗网络攻防实战演练
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="phishing-attack-drill-plan.html">
+            
+                <a href="phishing-attack-drill-plan.html">
+            
+                    
+                    钓鱼攻击演练方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="white-hat-penetration-behavior-monitoring-solution.html">
+            
+                <a href="white-hat-penetration-behavior-monitoring-solution.html">
+            
+                    
+                    白帽子渗透行为监控方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">【移动与物联网安全】</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="mobile-and-payment-security.html">
+            
+                <a href="mobile-and-payment-security.html">
+            
+                    
+                    移动支付与支付安全 SDL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" data-path="iot-security-architecture-design-solution.html">
+            
+                <a href="iot-security-architecture-design-solution.html">
+            
+                    
+                    IoT 物联网安全架构设计方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >企业级容器安全风险与最佳实践</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="企业级容器安全风险与最佳实践">企业级容器安全风险与最佳实践</h1>
+<p>随着云服务的快速发展，容器的使用日益普及，容器安全问题日益凸显。为了规范和指导容器的安全使用，今天向大家介绍在容器使用过程存在安全问题，并针对这些问题提供了针对性对策建议。</p>
+<h2 id="一、容器安全主要风险">一、容器安全主要风险</h2>
+<p>NIST.SP.800-190 容器安全指南列出了需要采取安全措施的五个方面，包括镜像、镜像仓库、编排工具、容器和主机操作系统。</p>
+<p>镜像风险：有可能是镜像漏洞、镜像配置缺陷、嵌入式恶意软件、未被信任的镜像、明文存储的秘钥。</p>
+<p>镜像仓库风险：包括与镜像仓库的连接不安全、镜像仓库中的镜像过时和不完备的认证授权机制，这些都会给镜像仓库带来风险。</p>
+<p>编排工具风险：包括管理访问权限不受限制、未经授权的访问、容器间网络流量隔离效果差、混合不同敏感度级别的工作负载、编排工具节点可信。</p>
+<p>容器风险：包括运行时软件中的漏洞、容器的网络访问不受限制、容器运行时配置不安全、应用漏洞、流氓容器。</p>
+<p>主机操作系统风险：主要包括攻击面大、共享内核、主机操作系统组件漏洞、用户访问权限不当、篡改主机操作系统文件系统。</p>
+<h2 id="二、全生命周期的容器安全">二、全生命周期的容器安全</h2>
+<p>容器的安全防护应该覆盖整个容器的生命周期，即容器的构建、分发、运行三个阶段，这样才能确保持续的安全性。</p>
+<p><img src="container-security-risks-and-best-practices/1657955002610-0219f958-88d8-4515-8015-1af14ec94d4a.webp" alt="image.png"></img></p>
+<h3 id="（1）容器构建安全性">（1）容器构建安全性</h3>
+<p>由于容器中广泛使用开源软件，这增加了将漏洞引入应用程序的风险。应该在容器构建阶段扫描软件和 Docker 容器镜像，以发现漏洞，在解决问题之后再投入生产。因此，需要定期扫描镜像注册中心，以检测即将应用于生产中的容器镜像是否存在新发现的漏洞。</p>
+<p>此外，容器构建通常都是单一功能，因此应该删除任何不必要的包、库和其他组件，对镜像进行精简、加固，减少容器攻击面。</p>
+<h3 id="（2）容器分发安全性">（2）容器分发安全性</h3>
+<p>运维团队需要确保不会在生产中使用未经授权的镜像。为了确保这一阶段的安全性，需要进行安全认证，比如镜像签名和访问控制。应对镜像仓库、编排工具等其他开发工具设置统一的访问控制策略。</p>
+<h3 id="（3）容器运行安全性">（3）容器运行安全性</h3>
+<p>运行时安全性是最重要的内容，因为在应用的整个生命周期内，容器将不断受到扫描和攻击。即使容器不断地启动、停止和更新，运行容器的主机也很容易受到新的攻击和零日攻击。</p>
+<h2 id="三、容器安全最佳实践">三、容器安全最佳实践</h2>
+<p><img src="container-security-risks-and-best-practices/1657955002459-b076a2b6-28ea-4798-916e-5bc0d331cad7.webp" alt="image.png"></img></p>
+<p><img src="container-security-risks-and-best-practices/1657955002475-33c52615-33ff-44e9-a443-3cb44505aa54.webp" alt="image.png"></img></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="major-security-risk-assessment-of-cloud-computing-services.html" class="navigation navigation-prev " aria-label="Previous page: 云计算服务重大安全风险评估">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="red-blue-attack-and-defense-practice.html" class="navigation navigation-next " aria-label="Next page: 红蓝对抗网络攻防实战演练">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"企业级容器安全风险与最佳实践","level":"7.3","depth":1,"next":{"title":"红蓝对抗网络攻防实战演练","level":"8.1","depth":1,"path":"red-blue-attack-and-defense-practice.md","ref":"red-blue-attack-and-defense-practice.md","articles":[]},"previous":{"title":"云计算服务重大安全风险评估","level":"7.2","depth":1,"path":"major-security-risk-assessment-of-cloud-computing-services.md","ref":"major-security-risk-assessment-of-cloud-computing-services.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"container-security-risks-and-best-practices.md","mtime":"2024-12-27T18:45:46.493Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2024-12-27T18:45:54.962Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
